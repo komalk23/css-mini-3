@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="container">
+
+    <h1>Share Your Feedback</h1>
+
+    <p class="intro">
+        Please fill in the form below to share your
+        thoughts about the course and portal.
+    </p>
+
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name"
+                placeholder="Your Beautiful Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email"
+                placeholder="Your Email">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone"
+                placeholder="Your Phone No.">
+        </div>
+
+        <div class="form-group">
+            <label>Gender:</label>
+
+            <div class="gender-options">
+                <label>
+                    <input type="radio" value="Male"
+                        name="gender"> Male
+                </label>
+
+                <label>
+                    <input type="radio" value="Female"
+                        name="gender"> Female
+                </label>
+
+                <label>
+                    <input type="radio" value="Other"
+                        name="gender"> Other
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="course">Select Course</label>
+
+            <select name="course" id="course">
+                <option>--Select Your Option--</option>
+                <option>Foundation of IT</option>
+                <option>Database Management System</option>
+                <option>Problem-solving</option>
+                <option>Environmental Studies</option>
+                <option>New Age Life Skills</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Feedback">Your Feedback:</label>
+
+            <textarea name="Feedback" id="Feedback"
+                placeholder="Please Give Your Valuable Feedback"
+                rows="5"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="Rating">Please Rate the Portal:</label>
+
+            <select name="Rating" id="Rating">
+                <option>--Select Your Option--</option>
+                <option>5-Excellent</option>
+                <option>4-Good</option>
+                <option>3-Average</option>
+                <option>2-Fair</option>
+                <option>1-Poor</option>
+            </select>
+        </div>
+
+        <div class="subscribe">
+            <label for="subscribe">
+                Subscribe to newsletters and updates.
+            </label>
+
+            <input type="checkbox" id="subscribe"
+                value="subscribe" name="subscribe">
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>©2026 Student Portal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

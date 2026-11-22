@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #80a8c9, #4b8fc7);
+    color: #333;
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #c98094;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+form{
+    height: 40%;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+/* Labels */
+label{
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #555;
+}
+
+/* Attribute Selectors */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus Pseudo-class */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #9d8189;
+    box-shadow: 0 0 6px rgba(157, 129, 137, 0.4);
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Gender Options */
+.gender-options {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #9d8189;
+    cursor: pointer;
+}
+
+/* Subscribe Section */
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    background-color: #693745;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Hover Pseudo-class */
+button:hover {
+    background-color: #765c65;
+    transform: translateY(-3px);
+}
+
+/* Reset Button */
+.reset-btn {
+    background-color: #8f90ce;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #050505;
+    font-size: 14px;
+}
+
+/* CSS Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .gender-options {
+        gap: 12px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
