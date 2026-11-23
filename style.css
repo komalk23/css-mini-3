@@ -158,7 +158,7 @@ footer {
     }
 }
 form{
-    animation: fadeIn 2s ease;
+    animation: fadeIn 2s ease forwards;
 }
 
 /* Responsive Design */
