@@ -157,6 +157,9 @@ footer {
         transform: translateY(0);
     }
 }
+form{
+    animation: fadeIn 2s ease;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
