@@ -157,7 +157,7 @@ footer {
         transform: translateY(0);
     }
 }
-form{
+.form{
     animation: fadeIn 2s ease forwards;
 }
 
